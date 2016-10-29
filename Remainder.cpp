@@ -10,8 +10,14 @@ using namespace std;
 
 int main()
 {
-	Pet *Snark = new Snake;
-	Snark->snek();
+	//Snake myPet;
+	//myPet.snek(); //works as should
+
+	//Animal *myPet=new Snake; 
+	//myPet->snek(); //Class Animal has no member named snek
+
+	Pet *Snark=new Snake;
+	static_cast<Snake*>(Snark)->snek(); 
 	return 0;
 }
 

@@ -4,7 +4,7 @@
 using namespace std;
 void Cat::knock_shit_off_of_table()
 	{
-		cout<<"Maintains ee contact. Assert dominance.";
+		cout<<"Maintains eye contact. Assert dominance.";
 	}
 void Dog::eat_poop()
 	{
