@@ -29,8 +29,8 @@ Pet::Pet(string tempName, int tempAge, Person *tempOwner)
 class Animal: public Pet
 {
 public:
-     Gender gend;
-     doorNature door;
+     char gender;
+     bool indooroutdoor;
 };
 
 class Cat: public Animal
