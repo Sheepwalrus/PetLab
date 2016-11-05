@@ -8,11 +8,11 @@ public:
 class Fern: public Plant
 {
 public:
-	void fernicate();
+	void action();
 };
 class Cactus: public Plant
 {
 public:
-	void poke();
+	void action();
 };
 

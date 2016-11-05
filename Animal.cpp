@@ -2,15 +2,15 @@
 #include <iostream>
 #include "Animal.h"
 using namespace std;
-void Cat::knock_shit_off_of_table()
+void Cat::action()
 	{
 		cout<<"Maintains eye contact. Assert dominance.";
 	}
-void Dog::eat_poop()
+void Dog::action()
 	{
 		cout<<"Yum";
 	}
-void Snake::snek()
+void Snake::action()
 	{
 		cout<<"snek snek snek";
 	}

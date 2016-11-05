@@ -17,7 +17,7 @@ int main()
 	//myPet->snek(); //Class Animal has no member named snek
 
 	Pet *Snark=new Snake;
-	static_cast<Snake*>(Snark)->snek(); 
+	Snark->action(); 
 	return 0;
 }
 

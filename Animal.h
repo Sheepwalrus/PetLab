@@ -5,22 +5,26 @@ class Animal: public Pet
 public:
      char gender;
      bool indooroutdoor;
+     virtual void action()
+	{
+		//Virtual Function
+	}
 };
 
 class Cat: public Animal
 {
 public:
-     void knock_shit_off_of_table();
+     void action();
 };
 
 class Dog: public Animal
 {
 public:
-     void eat_poop();
+     void action();
 };
 
 class Snake: public Animal
 {
 public:
-     void snek();
+     void action();
 };
